@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Log Viewer</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <p th:text="'INFO: ' + ${logger.infoCount} " />
+    <p th:text="'WARNING:' + ${logger.warningCount} " />
+    <p th:text="'ERROR: ' + ${logger.errorCount} " />
+    <div><textarea class="form-control" readonly="readonly" style="margin-top: 10px;width:95%;" rows="20" cols="90" th:inline="text">[[${logger.logFileText}]]
+</textarea></div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+2016-09-20 16:23:10,994 WARNING  Some debug message 
+2016-09-20 16:23:10,994 INFO  Some info message 
+2016-09-20 16:23:10,994 WARNING  Some info message
+2016-09-20 16:23:10,994 WARNING  Some debug message 
+2016-09-20 16:23:10,994 INFO  Some info message 
+2016-09-20 16:23:10,994 ERROR  Some info message 
+2016-09-20 16:23:10,994 WARNING  Some info message 
+2016-09-20 16:23:10,994 ERROR  Some info message 
+2018-01-14 17:56:57.065  INFO 12592 --- [           main] c.t.eu.logger.LogFileReaderApplication   : Starting LogFileReaderApplication on RajuTalisetty with PID 12592 (started by Raju Talisetty in C:\Users\Raju Talisetty\Documents\workspace-sts-3.8.1.RELEASE\loxdataservicces\new\log-file-reader)
+2018-01-14 17:56:57.072  INFO 12592 --- [           main] c.t.eu.logger.LogFileReaderApplication   : No active profile set, falling back to default profiles: default
+2018-01-14 17:56:57.153  INFO 12592 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@103b9fe: startup date [Sun Jan 14 17:56:57 CET 2018]; root of context hierarchy
+2018-01-14 17:56:59.359  INFO 12592 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-01-14 17:56:59.375  INFO 12592 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-14 17:56:59.376  INFO 12592 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-14 17:56:59.511  INFO 12592 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-01-14 17:56:59.511  INFO 12592 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2361 ms
+2018-01-14 17:56:59.717  INFO 12592 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-14 17:56:59.722  INFO 12592 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-14 17:56:59.722  INFO 12592 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-14 17:56:59.722  INFO 12592 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-14 17:56:59.722  INFO 12592 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2016-09-20 16:23:10,994 WARNING  Some debug message 
