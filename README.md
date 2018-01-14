@@ -1,6 +1,8 @@
 # LogFileReader
 
-This project was generated with Spring Boot [Spring Boot] (https://projects.spring.io/spring-boot/)
+This project was generated with Spring Boot [Spring Boot] (https://projects.spring.io/spring-boot/).
+This Project will reads the log file and gives the stats.
+Currently this application will reads the logfile from the location /src/main/resources/logfile.log
 
 ## Development server
 We can import this project in Spring tool suite or in eclipse or any IDE.
