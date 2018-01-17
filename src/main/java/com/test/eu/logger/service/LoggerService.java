@@ -38,7 +38,7 @@ public class LoggerService {
 			
 			try {
 				BufferedReader reader = new BufferedReader(new 
-						InputStreamReader(LogReaderController.class.getClassLoader().getResourceAsStream("./logfile.log")));
+						InputStreamReader(LogReaderController.class.getClassLoader().getResourceAsStream("logfile.log")));
 				String sCurrentLine;
 				while((sCurrentLine = reader.readLine()) != null) {
 					 if(INFO_PATTERN.matcher(sCurrentLine).find())infoCount++;
